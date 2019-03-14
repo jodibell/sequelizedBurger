@@ -1,5 +1,5 @@
 var express = require("express");
-var db = require("../models");
+var db = require("./models");
 
 var PORT = process.env.PORT || 8000;
 var app = express();
